@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <!-- ===== bootstrap css ===== -->
+    <link rel="stylesheet" href="./jc/bootstrap.css">
+     <!-- ===== bootstrap Icon ===== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- ===== Custom Css ===== -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+</head>
+<body>
+     <!-- Navigation-->
+     <nav class="navbar shadow-sm sticky-top navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Equation</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Course
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">HTML</a></li>
+                          <li><a class="dropdown-item" href="#">CSS</a></li>
+                          <li><a class="dropdown-item" href="#">Javascript</a></li>
+                        </ul>
+                      </li>
+                 
+                    <li class="nav-item"><a class="nav-link" href="#">Gallary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+ <h1 class="text-center mt-5">Button</h1>
+
+    <!-- Button-->
+    <button type="button" class="btn btn-primary d-block mt-5 w-25">Purchase Information </button>
+    <button type="button" class="btn btn-secondary d-block mt-2 w-25">Purchase Return Information</button>
+    <button type="button" class="btn btn-success d-block mt-2 w-25">Sales Information</button>
+    <button type="button" class="btn btn-info d-block mt-2 w-25">Sales Return Information</button>
+    <button type="button" class="btn btn-dark d-block mt-2 w-25">Issue Information</button>
+    <button type="button" class="btn btn-outline-primary d-block mt-2 w-25">Receive Information</button>
+    <button type="button" class="btn btn-outline-secondary d-block mt-2 w-25">Wastage Information</button>
+    <button type="button" class="btn btn-outline-success d-block mt-2 w-25">Gain Information</button>
+    <button type="button" class="btn btn-outline-info d-block mt-2 w-25">Transfar Information</button>
+    <button type="button" class="btn btn-outline-dark d-block mt-2 w-25">Give & Take Information</button>
+
+    <h1 class="text-center mt-5">Card</h1>
+
+    <div class="card mt-5" style="width: 18rem;">
+        <img src="https://dummyimage.com/300x400/343a40/6c757d" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
+      <h1 class="text-center mt-5">Form</h1>
+
+      <section class="py-5">
+        <div class="container px-5">
+            <!-- Contact form-->
+            <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                    <h1 class="fw-bolder">Get in touch</h1>
+                    <p class="lead fw-normal text-muted mb-0">Let's work together!</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6">
+
+                        <form id="contactForm">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."/>
+                                <label for="name">Full name</label>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" />
+                                <label for="email">Email address</label>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"/>
+                                <label for="phone">Phone number</label>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            </div>
+                            <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-center mt-5 mb-5">Progress Bar</h1>
+
+    <div class="progress">
+        <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <h1 class="text-center mt-5 mb-5">Pagination</h1>
+
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1 class="text-center mt-5 mb-5">Dropdown</h1>
+
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuDark" data-bs-toggle="dropdown" aria-expanded="false">
+          Stock Input
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuDark">
+          <li><a class="dropdown-item" href="#">Purchase Information</a></li>
+          <li><a class="dropdown-item" href="#">Purchase Return Information</a></li>
+          <li><a class="dropdown-item" href="#">Sales Information</a></li>
+          <li><a class="dropdown-item" href="#">Sales Return Information</a></li>
+          <li><a class="dropdown-item" href="#">Transfar Information</a></li>
+          <li><a class="dropdown-item" href="#">Batch Creation</a></li>
+          <li><a class="dropdown-item" href="#">Issue Information</a></li>
+          <li><a class="dropdown-item" href="#">Receive Information</a></li>
+          <li><a class="dropdown-item" href="#">Wastage Information</a></li>
+          <li><a class="dropdown-item" href="#">Gain Information</a></li>
+          <li><a class="dropdown-item" href="#">Store Entry</a></li>
+          <li><a class="dropdown-item" href="#">Catagory Entry</a></li>
+          <li><a class="dropdown-item" href="#">Item Information</a></li>
+          
+        </ul>
+      </div>
+
+      <h1 class="text-center mt-5 mb-5">Dropdown</h1>
+
+      <div class="btn-group dropup">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Stock Reports
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Closing Stock Value</a></li>
+          <li><a class="dropdown-item" href="#">Item Register</a></li>
+          <li><a class="dropdown-item" href="#">Sales/Purchase/Return Statement - Details</a></li>
+          <li><a class="dropdown-item" href="#">Sales/Purchase/Return Statement - Summary</a></li>
+          <li><a class="dropdown-item" href="#">Store Wise Closing Stock</a></li>
+          <li><a class="dropdown-item" href="#">Stock Movement</a></li>
+        </ul>
+      </div>
+
+    <h1 class="text-center mt-5 mb-5">Table</h1>
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">SL</th>
+            <th scope="col">Store</th>
+            <th scope="col">Item</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Rate</th>
+            <th scope="col">Rate</th>
+            <!-- <th scope="col">Test</th> -->
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Central Store</td>
+            <td>Lentise</td>
+            <td>100000</td>
+            <td>101</td>
+            <td>10100000</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Port Colony Store</td>
+            <td>Yellowpeas</td>
+            <td>100000</td>
+            <td>63</td>
+            <td>6300000</td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">3</th> -->
+            <td class="text-end" colspan="3">Total :</td>
+            <td>163000</td>
+            <td class="text-center" colspan="2">16400000</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+      
+
+    <!-- ===== bootstrap js ===== -->
+    <script src="./jc/bootstrap.bundle.js"></script>
+    <!-- ===== Custom Js ===== -->
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
